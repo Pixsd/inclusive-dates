@@ -43,7 +43,6 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "yarn build:stencil && changeset publish",
-    "prepare": "husky install",
     "sass:watch": "sass src/themes/base.scss:src/themes/base.css src/themes/dark.scss:src/themes/dark.css src/themes/light.scss:src/themes/light.css --watch --style compressed",
     "sass": "sass src/themes/dark.scss:src/themes/dark.css src/themes/light.scss:src/themes/light.css --style compressed"
   },
@@ -66,7 +65,7 @@
     "@a11y/focus-trap": "^1.0.5",
     "@react-aria/live-announcer": "^3.1.2",
     "aria-hidden": "^1.2.2",
-    "chrono-node": "^2.5.0"
+    "chrono-node": "^2.8.0"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.7",
@@ -77,7 +76,6 @@
     "concurrently": "^7.5.0",
     "copyfiles": "^2.4.1",
     "glob": "^8.0.3",
-    "husky": "^8.0.3",
     "jest": "^27.0.3",
     "jest-cli": "^27.4.5",
     "lint-staged": "^13.1.0",
